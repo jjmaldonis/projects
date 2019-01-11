@@ -1,6 +1,6 @@
 # My Projects
 
-This is a collection of some of my more interesting projects. I rarely work by myself so my projects are often collaborations and are housed under various othere organizations.
+This is a collection of some of my more interesting projects. I rarely work by myself so my projects are often collaborations and are housed under various other organizations.
 
 
 ### Cassiopeia
@@ -14,7 +14,7 @@ Cassiopeia (aka Cass) is a python wrapper for the Riot Games API. Cass collects 
 
 https://github.com/meraki-analytics/merakicommons/blob/master/merakicommons/container.py#L323
 
-A `LazyList` is a generator-backed list that lazily generates the items in the list. In this case, the lazy-list functionality is coupled with "searchable list" functionality written by Rob Rua. The searchable functionality allows users to search for objects in a list according to their attributes and functions as a multiple-key lookup datastructure. The lazy functionality was written by me and is useful when you have a large (or expensive to compute) list that you may only need the first few elements of. You construct the `LazyList` by passing in a generator, and then use the `LazyList` as if it were a typical list. The most useful aspect of the `LazyList`, in contrast to a generator, is that you can re-access previous members of the list easily.
+A `LazyList` is a generator-backed list that lazily generates the items in the list. The lazy functionality is useful when you have a large (or expensive to compute) list that you may only need the first few elements of. Typically we would use a generator to generate the elements. However, it can be convenient to have the elements in a list so that they can be accessed multiple times. We use this in Cassiopeia for data that is paginated; the user can use the data as if it existed in a list, and we request the data on a need-to-use basis because we recieve the data in a pages (ie the incoming data is paginated).
 
 Example usage:
 
