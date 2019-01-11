@@ -42,19 +42,19 @@ You can think of it like basketball players on the court. Basketball typically h
 
 https://github.com/paul-voyles/motifextraction
 
-The motif extraction package identifies the structure of disordered atomic systems using complex machine learning clustering algorithms. I developed this code over the course of my PhD work.
+The motif extraction package identifies the structure of disordered atomic systems using complex machine learning clustering algorithms. I developed this code over the course of my PhD work. Paul Voyles is my thesis advisor, so this work is on his account for the sake of longevity.
 
 
 ### StructOpt v2
 
 https://github.com/uw-cmg/StructOpt/tree/master/v2-experiments-and-energy
 
-StructOpt is a Structure Optimization suite designed for materials with complicated structure. I developed it over the course of my PhD work. StructOpt uses genetic algorithms to efficient sample the massive domain space of atomic systems.
+StructOpt is a Structure Optimization suite designed for materials with complicated structure. It uses genetic algorithms to efficient sample the massive domain space of atomic systems. StructOpt was developed in collaboration with other researchers and myself as the main architect during my PhD.
 
 
 ### FEMSIM/HRMC
 
 https://github.com/paul-voyles/femsim-hrmc
 
-Hybrid Reverse Monte Carlo (HRMC) is a Monte Carlo structure simulation package. It uses fluctuation electron microscopy (FEM) data and energetic potentials to constraint the structure of a material, thereby generating atomic structures that are consistent with experimental FEM data and that have realistic bond lengths and geometries.
+Hybrid Reverse Monte Carlo (HRMC) is a Monte Carlo structure simulation package. It uses fluctuation electron microscopy (FEM) data and energetic potentials to constrain the structure of a material, thereby generating atomic structures that are consistent with experimental FEM data and that have realistic bond lengths and geometries. I contributed to significantly this package during my PhD. Paul Voyles is my thesis advisor, so this work is on his account for the sake of longevity.
 
