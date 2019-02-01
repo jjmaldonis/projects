@@ -1,20 +1,25 @@
 # My Projects
 
-This is a collection of some of my more interesting projects. I rarely work by myself so my projects are often collaborations and are housed under various other organizations.
+This is a collection of some of my more interesting projects. I rarely work by myself so my projects are often collaborations and are housed under various other organizations. All projects are currently written in Python.
+
+
+### mpi4py Examples
+
+During my graduate work I developed some code (StructOpt, see below) that made extensive use of `mpi4py`. `mpi4py` is a Python wrapper for MPI software, which allows for communication between many nodes in a high-performance cluster. In order to test the MPI environment, I developed a few examples related to splitting the MPI communicator and spawning child processes through MPI. I put these examples on github with a bit of documentation. To my surprise, the repository has a few stars. The number of `mpi4py` users is small in comparison to the larger academic computing field, so even a few stars suggests that my examples are useful to others.
 
 
 ### Cassiopeia
 
 https://github.com/meraki-analytics/cassiopeia
 
-Cassiopeia (aka Cass) is a python wrapper for the Riot Games API. Cass collects and manages data about the game League of Legends and is considered the best library for the Riot Games API by most of the community, along side Cass's sister library Orianna. I work on Cass and Ori with Rob Rua under the guise of Meraki Analytics, our for-fun startup company.
+Cassiopeia (aka Cass) is a python wrapper for the Riot Games API with unparalleled features. Cass collects and manages data about the game League of Legends and is considered the best library for the Riot Games API by most of the community, along side Cass's sister library Orianna. I work on Cass and Ori with Rob Rua under the guise of Meraki Analytics, our for-fun startup company.
 
 
 ### LazyLists
 
 https://github.com/meraki-analytics/merakicommons/blob/master/merakicommons/container.py#L323
 
-A `LazyList` is a generator-backed list that lazily generates the items in the list. The lazy functionality is useful when you have a large (or expensive to compute) list that you may only need the first few elements of. Typically we would use a generator to generate the elements. However, it can be convenient to have the elements in a list so that they can be accessed multiple times. We use this in Cassiopeia for data that is paginated; the user can use the data as if it existed in a list, and we request the data on a need-to-use basis because we recieve the data in a pages (ie the incoming data is paginated).
+A `LazyList` is a generator-backed list that lazily generates the items in the list. The lazy functionality is useful when you have a large (or expensive-to-compute) list that you may only need the first few elements of. Typically in python we use a generator to generate expensive-to-compute or high-memory elements. Generators are useful because they the compute elements on-demand and do not store the elements in memory after being iterated over. In some cases, however, we may want to reuse the elements in a generator. For example, we use `LazyList`s in Cassiopeia for paginated data; the user can access the data as if it existed in a list, and we request the data on a need-to-use basis because we recieve the data in a pages (because the incoming data is paginated).
 
 Example usage:
 
@@ -42,14 +47,14 @@ You can think of it like basketball players on the court. Basketball typically h
 
 https://github.com/paul-voyles/motifextraction
 
-The motif extraction package identifies the structure of disordered atomic systems using complex machine learning clustering algorithms. I developed this code over the course of my PhD work. Paul Voyles is my thesis advisor, so this work is on his account for the sake of longevity.
+The motif extraction package identifies the structure of disordered atomic systems using complex machine learning clustering algorithms. I developed this code over the course of my PhD work. Paul Voyles is my thesis advisor, so this work is on his account for the sake of longevity. Using motif extraction, I was able to identify a new structure in metallic glasses that controls the physics of the system.
 
 
 ### StructOpt v2
 
 https://github.com/uw-cmg/StructOpt/tree/master/v2-experiments-and-energy
 
-StructOpt is a Structure Optimization suite designed for materials with complicated structure. It uses genetic algorithms to efficient sample the massive domain space of atomic systems. StructOpt was developed in collaboration with other researchers and myself as the main architect during my PhD.
+StructOpt is a Structure Optimization suite designed for materials with complicated structure. It uses genetic algorithms to efficiently sample the massive domain space of atomic systems. StructOpt was developed in collaboration with other researchers, with myself as the main architect, during my PhD work.
 
 
 ### FEMSIM/HRMC
