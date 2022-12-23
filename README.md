@@ -48,11 +48,8 @@ You can think of it like basketball players on the court. Basketball typically h
 
 I wrote an app for our local sailing club using Flutter. It's cross-platform and is available in both the Google Play Store and Apple Store. The code is not open-source at the time of writing this, although I intend to open-source it. Below are some images of the app, which I designed myself with some input from friends.
 
-<img src="assets/hoofers-list-view.png" alt="drawing" width="200"/>
-<img src="assets/hoofers-detail-view.png" alt="drawing" width="200"/>
-<img src="assets/hoofers-filter-view.png" alt="drawing" width="200"/>
-<img src="assets/hoofers-weather-view.png" alt="drawing" width="200"/>
-<img src="assets/hoofers-info-view.png" alt="drawing" width="200"/>
+<img src="assets/hoofers-list-view.png" alt="drawing" width="200"/> <img src="assets/hoofers-detail-view.png" alt="drawing" width="200"/> <img src="assets/hoofers-filter-view.png" alt="drawing" width="200"/>
+<img src="assets/hoofers-weather-view.png" alt="drawing" width="200"/> <img src="assets/hoofers-info-view.png" alt="drawing" width="200"/>
 
 
 ## Audio Notes: a product for taking notes on podcasts
