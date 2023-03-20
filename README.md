@@ -22,7 +22,7 @@ No matter how much I wanted to remember something in a podcast, I rarely wrote i
 
 ## Sailing Club Mobile App
 
-I wrote an app for our local sailing club using Flutter. It's cross-platform and is available in both the Google Play Store and Apple Store. The code is not open-source at the time of writing this, although I intend to open-source it. Below are some images of the app, which I designed myself with some input from friends.
+I wrote an app for our local sailing club using Flutter. It's cross-platform and is available in both the <a href="https://play.google.com/store/apps/details?id=com.hoofers.unofficial">Google Play Store</a> and <a href="https://apps.apple.com/us/app/hoofers-sailing-unofficial/id1631688800">Apple Store</a>. The code is not open-source at the time of writing this, although I intend to open-source it. Below are some images of the app, which I designed myself with some input from friends.
 
 <p align="center">
     <img src="assets/hoofers-list-view.png" alt="drawing" width="200"/> <img src="assets/hoofers-detail-view.png" alt="drawing" width="200"/>
