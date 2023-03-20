@@ -1,8 +1,8 @@
 # My Projects
 
-This is a collection of some of my more interesting personal projects. I rarely work by myself so my projects are often collaborations and are housed under various other organizations.
+This is a collection of my interesting personal projects. I rarely work by myself, so my projects are often collaborations and are housed under various other organizations.
 
-As a consultant, my work is typically covered by an NDA and is therefore not included in this project list.
+As a consultant, my professional work is typically covered by an NDA and is therefore not included in this project list.
 
 
 ## Audio Notes: a product for taking notes on podcasts
